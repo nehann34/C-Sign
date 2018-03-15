@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upload_assignments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/assignmentsspinner"
+        android:layout_below="@+id/upload_assign_name"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_assign_fname"
+            android:hint="select files using file manager"
+            android:layout_weight="2"/>
+        <Button
+            android:text="Browse"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_assign_pick" />
+    </LinearLayout>
+    <Button
+        android:text="Continue"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/uploadassignmentbutton"
+
+        />
+</LinearLayout>

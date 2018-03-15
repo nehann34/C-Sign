@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:id="@+id/ScrollView"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+    android:background="#bdbdbd"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="fill_parent"
+        android:background="#bdbdbd"
+
+
+        android:weightSum="1"
+        android:layout_height="460dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:id="@+id/linearLayout1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/ibutton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:id="@+id/linearLayout2"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Now, suppose you want to write a e-mail to your friend Jack."></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="To Jack:"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+
+                android:layout_weight="0.21"
+                android:id="@+id/oritext">
+
+                <requestFocus/>
+
+            </EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendbutton"
+
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                 android:text='When you click the "send" Button, the text will be
+
+ processed by a type of hash function, then the hash code will attack to the text with encrypted by a private key.'></TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:id="@+id/linearLayout3"
+            android:visibility="gone">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:text="A Hacker can steal your private Text, also he can change the Text. Then he will send it to Jack.">
+
+            </TextView>
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:inputType="textMultiLine"
+
+                android:layout_weight="0.35" android:id="@+id/changabletext">
+
+                <requestFocus></requestFocus>
+
+            </EditText>
+
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/continuebutton"
+
+                android:text="Continue"></Button>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical"
+
+            android:id="@+id/linearLayout4" android:visibility="gone">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:text="Now, Jack recieved the mail, and he wants to verify if it has changed."></TextView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Jack has known the recieved mail, publickey and the Signature from you."></TextView>
+
+            <Button android:layout_width="wrap_content" android:text="Next" android:layout_height="wrap_content"
+
+                android:id="@+id/stepbutton"></Button>
+
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:id="@+id/steptext"
+
+                android:layout_weight="0.47"></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

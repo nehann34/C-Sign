@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Digital sign</string>
+
+    <string-array name="securityQ">
+        <item>"What was the first book you ever read? "</item>
+        <item>"Who was your childhood hero?Â "</item>
+        <item>"Where Did you travel for the first time?"</item>
+        <item>"What is the name of your first grade teacher?"</item>
+        <item>"What is your dream job?"</item>
+    </string-array>
+    <string name="hint_uid">UID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me</string>
+    <string name="hint_re_enter_password">Re-Enter your Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="btn_sign">SIGN</string>
+    <string name="creden"><b><u>Credentials</u></b></string>
+    <string name="publickey"><b><u>Public Key:
+    </u></b></string>
+    <string name="privatekey"><b>
+        <u>Private Key:</u></b></string>
+
+    <string name="welcometext"><b>You are about to sign. \n Now click the Sign button to generate Digital Signature for authentication.</b> </string>
+    <string name="authmessage"><b>Click continue to complete the authentication.</b></string>
+    <string name="prernaip">192.168.0.29</string>
+    <string name="country_code">Country code :</string>
+    <string name="certificate_name">Certificate Name : </string>
+    <string name="issuer">Issuer : </string>
+    <string name="expiry">Expiry Date :</string>
+    <string name="version">Version : </string>
+    <string name="loginnext">Click to generate keypair</string>
+    <string name="btnloginnext">continue</string>
+    <string name="beforecerti1">This certificate is issued to : \n</string>
+    <string name="beforecerti2">and issued by : \n</string>
+    <string name="beforecerti3">It is valid upto : \n</string>
+    <string name="btnbeforecerti1">Click to see certificate details</string>
+    <string name="btnbeforecerti2">Skip</string>
+</resources>

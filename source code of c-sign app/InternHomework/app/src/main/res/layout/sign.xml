@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bdbdbd"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcometext"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/btnsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#FFF"
+        android:text="@string/btn_sign"
+        android:textColor="#000" />
+</LinearLayout>

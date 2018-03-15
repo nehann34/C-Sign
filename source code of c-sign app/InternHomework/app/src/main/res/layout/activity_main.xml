@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#bdbdbd"
+
+    android:layout_height="match_parent"
+    tools:context="org.darkbyte.internhomework.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 4 digit pin"
+        android:id="@+id/textpin"
+        android:textColor="#FFF"
+        android:layout_marginBottom="91dp"
+        android:layout_alignBottom="@+id/editTextpin"
+        android:layout_alignStart="@+id/editTextpin" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Save Pin"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:background="#FFF"
+
+        android:layout_marginBottom="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:inputType="phone"
+        android:maxLength="4"
+
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="68dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
